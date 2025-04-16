@@ -119,43 +119,14 @@ ob_start();
 .avatar-circle {
     width: 32px;
     height: 32px;
+    background-color: #e2e8f0;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 14px;
     font-weight: 600;
-}
-
-.icon-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-}
-
-.table > :not(caption) > * > * {
-    padding: 1rem;
-}
-
-.table tbody tr:hover {
-    background-color: rgba(0, 0, 0, 0.02);
-}
-
-.badge {
-    padding: 0.5em 0.75em;
-    font-weight: 500;
-}
-
-.btn-light {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.btn-light:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    color: #64748b;
 }
 
 .btn-primary-subtle {
@@ -203,6 +174,62 @@ ob_start();
 
 .btn-group .btn:last-child {
     margin-right: 0;
+}
+
+.card-header {
+    padding: 1rem;
+}
+
+.input-group-text, .form-control, .form-select {
+    border-radius: 0.5rem;
+}
+
+.input-group-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    background-color: #f8f9fa;
+}
+
+.sortable {
+    cursor: pointer;
+    user-select: none;
+}
+
+.sortable:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.sortable.active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sortable.active i {
+    color: #0d6efd;
+}
+
+.table > :not(caption) > * > * {
+    padding: 1rem;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.badge {
+    padding: 0.5em 0.75em;
+    font-weight: 500;
+}
+
+.btn-light {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-light:hover {
+    background-color: rgba(0, 0, 0, 0.05);
 }
 </style>
 

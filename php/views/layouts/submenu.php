@@ -41,11 +41,5 @@ $currentDir = basename(dirname($_SERVER['PHP_SELF']));
                 <span>Expositores</span>
             </a>
         </li>
-        <li>
-            <a href="/php/views/usuarios/index.php" class="nav-link <?php echo $currentDir == 'usuarios' ? 'active' : ''; ?>">
-                <i class="bi bi-person-gear"></i>
-                <span>Usuarios</span>
-            </a>
-        </li>
     </ul>
 </div>
