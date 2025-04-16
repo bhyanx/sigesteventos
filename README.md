@@ -18,27 +18,19 @@ Sistema híbrido para la gestión de eventos académicos desarrollado en PHP y N
 - Frontend: PHP (interfaz administrativa)
 - API RESTful
 
-## Requisitos
-
-- PHP 7.4 o superior
-- Node.js 14 o superior
-- MySQL 5.7 o superior
-- Servidor web (Apache/Nginx)
 
 ## Instalación
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/tu-usuario/sigest-eventos.git
-   cd sigest-eventos
+   git clone https://github.com/tu-usuario/sigesteventos.git
+   cd sigesteventos
    ```
 
 2. **Configurar la base de datos**
    - Crear una base de datos MySQL
    - Importar el archivo `sistema_eventos_academicos.sql`
-   - Copiar `php/config/database.example.php` a `php/config/database.php`
-   - Actualizar las credenciales en `database.php`
-
+   
 3. **Configurar la API**
    ```bash
    cd api
@@ -77,23 +69,12 @@ Sistema híbrido para la gestión de eventos académicos desarrollado en PHP y N
 
 2. **Acceder al sistema**
    - Abrir el navegador en `http://localhost:8080`
-   - Credenciales por defecto:
-     - Usuario: admin
-     - Contraseña: admin123
 
 ## Desarrollo
 
 - Para desarrollo, usar `npm run dev` en la carpeta api
 - Los cambios en PHP se reflejan inmediatamente
 - Los cambios en la API requieren reiniciar el servidor
-
-## Contribuir
-
-1. Fork el proyecto
-2. Crear una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abrir un Pull Request
 
 ## Licencia
 
